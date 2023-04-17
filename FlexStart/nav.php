@@ -9,7 +9,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-        <li><a href="index.php" <?php if(basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"'; ?>>Home</a></li>
+        <li><a class="nav-link scrollto" href="index.php#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
           <li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
           <li><a class="nav-link scrollto" href="index.php#portfolio">Portfolio</a></li>
